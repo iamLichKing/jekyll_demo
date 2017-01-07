@@ -1,39 +1,23 @@
-<!-----
-　　layout: default
-　　title: 我的Blog
-　　---
-　　<h2>{{ page.title }}</h2>
-　　<p>最新文章</p>
-　　<ul>
-　　　　{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
-　　</ul>-->
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title></title>
-	<style type="text/css">
-		html,body{
-			width: 100%;
-		}
-		#banner{
-			width: 100%;
-			margin: 0 auto;
-		}
-		#banner img{
-			display: block;
-			width: 1024px;
-			height: 768px;
-			margin: 0 auto;
-		}
-	</style>
+		<title>LK</title>
+		<link rel="stylesheet" type="text/css" href="css/common/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/home/home.css" />
+		<script type="text/javascript" src="js/home/home.js" ></script>
 	</head>
-	
+		
 	<body>
-		<div id="banner">
-			<img src="img/lk.jpg" alt=""/>
+		<div id="top">
+			<!--LOGO-->
+			<div class="logo-box">
+				<a href="#"><img src="img/lk.jpg" alt=""/></a>
+			</div>
+			<!--导航-->
+			<div class="nav-box">
+				
+			</div>
 		</div>
 	</body>
 </html>

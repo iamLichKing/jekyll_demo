@@ -1,25 +1,5 @@
 @charset "utf-8";
 
-@-webkit-keyframes logoBigAnimation{
-	0%{
-		transform: scale(1.0);
-		-webkit-transform: scale(1.0);
-	}
-	100%{
-		transform: scale(1.2);
-		-webkit-transform: scale(1.2);
-	}
-}
-@keyframes logoSmallAnimation{
-	0%{
-		transform: scale(1.2);
-		-webkit-transform: scale(1.2);
-	}
-	100%{
-		transform: scale(1.0);
-		-webkit-transform: scale(1.0);
-	}
-}	
 /*TOP*/
 #top{
 	width: 100%;

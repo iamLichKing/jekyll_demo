@@ -3,7 +3,6 @@ window.onload = function(){
 	
 	var logo = document.getElementsByClassName("logo")[0];
 	logo.onmouseover = function(){
-		console.log("1");
 		this.style.animation = "logoBigAnimation 0.2s linear 0 1 forwards";		
 	}
 	logo.onmouseout = function(){

@@ -11,13 +11,13 @@ window.onload = function(){
 	
 	var bq = document.getElementsByClassName("bq")[0];
 	bq.onmouseover = function(){
-		this.setAttribute('src','../img/bq01.png');
+		this.setAttribute('src','img/bq01.png');
 	}
 	bq.onmouseout = function(){
 		if(Math.random()*10 > 8){
-			this.setAttribute('src','../img/bq02.png');	
+			this.setAttribute('src','img/bq02.png');	
 		}else{
-			this.setAttribute('src','../img/bq03.png');
+			this.setAttribute('src','img/bq03.png');
 		}
 	}
 	

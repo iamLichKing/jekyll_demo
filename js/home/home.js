@@ -1,6 +1,11 @@
 
 window.onload = function(){
-//	var source = document.getElementById('source');
-//	source.style.src = "data/lkVideo.FLV";
-	
+	var vido = document.getElementById('vido');	
+	var audo = document.getElementById('audo');
+	var banner = document.getElementsByClassName('banner')[0];
+	vido.onended = function(){
+		this.style.display = "none";
+		banner.style.display = "block";
+		window.audo.play();
+	}
 }

@@ -61,3 +61,6 @@
 	top: 50%;
 	transform: translateY(-50%);
 }
+.nav-a:hover{
+	color: #dfca8e;
+}
